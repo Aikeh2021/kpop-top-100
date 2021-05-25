@@ -10,6 +10,9 @@ const PORT = process.env.PORT || 3001;
 app.use(express.urlencoded({ extended:true}));
 app.use(express.json());
 
+//Serving up the static files
+app.use(express.static("client/build"));
+
 
 //Test route
 app.get("/api/config", (req, res) => {
@@ -22,9 +25,6 @@ app.get("/api/config", (req, res) => {
 app.get("*", (req, res) => {
     res.sendFile(path.join(__dirname, "client/build/index.html"));
 });
-
-//Serving up the static files
-app.use(express.static("client/build"));
 
 //Listening in on the port
 app.listen(PORT, () => {
