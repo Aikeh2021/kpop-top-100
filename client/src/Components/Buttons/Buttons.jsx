@@ -1,9 +1,10 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
-const Buttons = () => {
+const Buttons = ({dspTxt, drtn}) => {
     return (
         <div>
-            <button className="button is-light">Light</button>
+            <Link to ={drtn} className="button is-light">{dspTxt}</Link>
         </div>
     );
 };
