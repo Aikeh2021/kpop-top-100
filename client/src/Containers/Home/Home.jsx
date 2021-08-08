@@ -9,7 +9,7 @@ const Home = () => {
             <h1 id="hp-title">Kpop Top 100</h1>
             <div className="columns hbtn-div">
                 <div className="column is-half ">
-                <Buttons drtn="" dspTxt="MEET THE TEAM" className="hbtns"/>
+                <Buttons drtn="/team" dspTxt="MEET THE TEAM" className="hbtns"/>
                 </div> 
                 <div className="column">
                 </div> 
