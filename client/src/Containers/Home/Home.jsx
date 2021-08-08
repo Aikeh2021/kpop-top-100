@@ -7,13 +7,13 @@ const Home = () => {
     return (
         <div className="container is-fullhd" id="page">
             <h1 id="hp-title">Kpop Top 100</h1>
-            <div className="columns">
-                <div className="column is-half hbtn-div">
+            <div className="columns hbtn-div">
+                <div className="column is-half ">
                 <Buttons drtn="" dspTxt="MEET THE TEAM" className="hbtns"/>
                 </div> 
-                {/* <div className="column">
-                </div>  */}
-                <div className="column is-half hbtn-div">
+                <div className="column">
+                </div> 
+                <div className="column is-half">
                 <Buttons drtn="" dspTxt="GET POPPING" className="hbtns"/>
                 </div>
             </div>

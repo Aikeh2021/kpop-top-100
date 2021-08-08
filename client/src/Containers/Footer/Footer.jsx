@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="content has-text-centered">
           <p>
             <strong>Kpop Top 100</strong> by{" "}
-            <a href="https://github.com/Aikeh2021" rel="noreferrer noopener" target="_blank">Ashley I.</a> and {" "}
-            <a href="https://github.com/MichaelEjike" rel="noreferrer noopener" target="_blank">Michael E.</a>.
+            <a href="https://github.com/Aikeh2021" rel="noreferrer noopener" target="_blank">Ashley</a> and {" "}
+            <a href="https://github.com/MichaelEjike" rel="noreferrer noopener" target="_blank">Michael.</a>
             The website content is licensed{" "}
             <a href="https://fsf.org/" rel="noreferrer noopener" target="_blank">
             GNU AFFERO GENERAL PUBLIC LICENSE
