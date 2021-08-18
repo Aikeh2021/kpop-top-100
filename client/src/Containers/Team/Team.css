@@ -1,4 +1,10 @@
-#teampg{
+#teampg {
     background-color: black;
     height: 500px;
+}
+
+#teams-title {
+    text-align: center;
+    font-size: 130px;
+    color: #EEEDE7
 }
