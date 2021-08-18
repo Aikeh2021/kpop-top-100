@@ -19,26 +19,28 @@ const Navbar = () => {
 
   <div id="navbarBasicExample" className="navbar-menu">
     <div className="navbar-start">
-      <NavLink className="navbar-item" to="/">
+      <NavLink className="navbar-item front-nav" to="/">
         Home
       </NavLink>
 
-      <NavLink className="navbar-item" to="/team">
+      <NavLink className="navbar-item inner-nav" to="/team">
         Team
       </NavLink>
 
-      <div className="navbar-item">
-        <NavLink className="navbar-item" to="/team">
+        <NavLink className="navbar-item inner-nav" to="/team">
           Songs
         </NavLink>
-      </div>
-    </div>
-
-    <div className="navbar-end">
-    <NavLink className="navbar-item" to="/team">
+      
+        <NavLink className="navbar-item outer-nav" to="/team">
           Data
         </NavLink>
     </div>
+
+    {/* <div className="navbar-end">
+    <NavLink className="navbar-item" to="/team">
+          Data
+        </NavLink>
+    </div> */}
   </div>
 </nav>
         </div>

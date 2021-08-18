@@ -1,3 +1,14 @@
-nav {
+.inner-nav {
     color: #BBC4C2;
+    margin-left: 210px;
+    margin-right: 210px;
+}
+
+.outer-nav {
+    margin-left: 100px;
+}
+
+.front-nav {
+
+    margin-right: 100px;
 }
