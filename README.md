@@ -16,8 +16,11 @@ As a user, I want to understand the hype surrounding K-pop so that I can become 
 
 K-pop fashion is constantly evolving! One of the groups that heavily relies on changing with the trends is a group called f(X). The design for this website was based off of two of their biggest songs: 
 * Electric Shock
+
 and
+
 * Four Walls
+
 This website's design focuses on the bold neon color pallete used in the Electric Shock music video, but also incorporates the crisp and clean lines that came during the abstract 70s inspired stage performances of the song Four Walls.
 
 ![Homepage wireframe](client/src/Assets/Homepgwf.png)
